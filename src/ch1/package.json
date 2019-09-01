@@ -1,5 +1,6 @@
 {
     "dependencies": {
-        "request": "^2.88.0"
+        "request": "^2.88.0",
+        "standard": "^14.1.0"
     }
 }
