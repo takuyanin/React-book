@@ -10,5 +10,8 @@
     "scripts": {
         "start": "node index.js",
         "check": "node -v"
+    },
+    "devDependencies": {
+        "standard": "^14.1.0"
     }
 }
