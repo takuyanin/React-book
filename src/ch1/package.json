@@ -1,7 +1,10 @@
 {
   "dependencies": {
-    "request": "^2.88.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "coffee-script": "^1.12.7",
     "sleep": "^6.1.0",
     "standard": "^14.1.0"
-  }
+  },
+  "devDependencies": {}
 }
