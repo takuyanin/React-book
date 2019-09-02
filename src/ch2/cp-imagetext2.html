@@ -10,8 +10,13 @@
     <div id="root"></div>
     <script type="text/babel">
       class PhotoText extends React.Component {
+        getImageUrl () {
+          const id = this.props.image
+          const url = "img/" + id + ".jpeg"
+          return url
+        }
         render() {
-          const url = "img/" + this.props.image + ".jpeg"
+          const url = this.getImageUrl()
           const label = this.props.label
           const boxStyle = {
             border: '1px solid silver',
