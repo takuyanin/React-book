@@ -27,11 +27,15 @@
         }
       }
       ReactDOM.render(
-        <RList
-          title="Colors"
-          items="Red,Green,Blue,White"
-        />,
-        document.getElementById("root")
+        <div>
+          <RList
+            title="Fruits"
+            items="banana,apple,strawberry" />
+          <RList
+            title="Vegetables"
+            items="carrot,cucumber" />
+        </div>,
+          document.getElementById("root")
       )
     </script>
   </body>
