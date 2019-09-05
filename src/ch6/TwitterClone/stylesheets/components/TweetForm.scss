@@ -1,0 +1,39 @@
+.w__f__tweet-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .f__tweet-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-color: #eeeeee;
+    width: 720px;
+
+    .w__input {
+      margin-bottom: 12px;
+
+      label {
+        font-size: 18px;
+      }
+
+      input {
+        width: 600px;
+        height: 30px;
+      }
+    }
+
+    .w__button {
+      margin-bottom: 12px;
+
+      button {
+        width: 600px;
+        height: 40px;
+        background-color: #55acee;
+        font-size: 18px;
+      }
+    }
+  }
+}
