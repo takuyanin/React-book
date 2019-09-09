@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Stopwatch.css'
+// import './Stopwatch.css'
 
 class Stopwatch extends Component {
   constructor (props) {

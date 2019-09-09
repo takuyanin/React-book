@@ -1,7 +1,11 @@
-﻿module.exports = {
-  entry: './src/main.js',
+﻿const path = require('path')
+
+const publicDir = path.join(__dirname, '/public')
+module.exports = {
+  entry: './src/index.js',
   output: {
-    path: __dirname + '/out',
+    path: publicDir,
+    publicPath: '/',
     filename: 'bundle.js'
   },
   module: {
@@ -15,8 +19,11 @@
       },
       {
         test: /.css$/,
-        loader: 'css-loader',
+        loader: 'css-loader'
       }
     ]
+  },
+  devServer: {
+    contentBase: publicDir
   }
 }
