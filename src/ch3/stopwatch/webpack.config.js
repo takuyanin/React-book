@@ -17,6 +17,6 @@
         test: /.css$/,
         loader: 'css-loader',
       }
-    ],
+    ]
   }
 }
